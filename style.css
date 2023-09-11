@@ -1,6 +1,7 @@
 :root {
     --color-bg: #e3f9ff;
     --color-main: #3a4452;
+    --color-secondary: #33ffd8;
 }
 
 * {
@@ -54,4 +55,8 @@ form .display input{
 
 form input.equal{
     width: 145px;
+}
+
+form input.operator {
+    color: var(--color-secondary);
 }
